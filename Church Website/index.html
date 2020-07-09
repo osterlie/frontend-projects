@@ -151,6 +151,16 @@
   textarea {
     resize: none;
   }
+  .hello{
+    width: 250px;
+    height: 170px;
+  }
+  .ministries{
+    height: 270px!important;
+  }
+  #pastor{
+    height: 200px
+  }
   </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -246,7 +256,7 @@
     <div class="col-sm-4">
       <p class="text-center"><strong>A Word Culture</strong></p><br>
       <a href="#demo" data-toggle="collapse">
-        <img src="images/solid_word.jpg" class="img-square person" alt="Solid Word" width="300" height="300">
+        <img class="hello" src="images/solid_word.jpg" class="img-square person" alt="Solid Word" width="300" height="300">
       </a>
       <div id="demo" class="collapse">
         <p>Solid Word for a Solid Life!</p>
@@ -257,7 +267,7 @@
     <div class="col-sm-4">
       <p class="text-center"><strong>Rev. Jeffrey Osterlie Adjei</strong></p><br>
       <a href="#demo2" data-toggle="collapse">
-        <img src="images/our_pastor.jpg" class="img-square person" alt="Our Pastor" width="300" height="300">
+        <img id="pastor" src="images/our_pastor.jpg" class="img-square person" alt="Our Pastor" width="300" height="300">
       </a>
       <div id="demo2" class="collapse">
         <p>Our Pastor</p>
@@ -268,7 +278,7 @@
     <div class="col-sm-4">
       <p class="text-center"><strong>A Prayer Culture</strong></p><br>
       <a href="#demo3" data-toggle="collapse">
-        <img src="images/prayer.jpg" class="img-square person" alt="Praying" width="255" height="255">
+        <img class="hello" src="images/prayer.jpg" class="img-square person" alt="Praying" width="255" height="255">
       </a>
       <div id="demo3" class="collapse">
         <p>A warm atmosphere of prayer</p>
@@ -296,7 +306,7 @@
     <div class="row text-center">
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="images/makarios.jpg" alt="Makarios" width="400" height="300">
+          <img class="ministries" src="images/makarios.jpg" alt="Makarios" width="400" height="300">
           
           <button class="btn" data-toggle="modal" data-target="#myModal">Enroll</button>
         </div>
@@ -311,7 +321,7 @@
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="images/swi.jpg" alt="Spirit-Word Institute" width="400" height="300">
+          <img class="ministries" src="images/swi.jpg" alt="Spirit-Word Institute" width="400" height="300">
           
           <button class="btn" data-toggle="modal" data-target="#myModal">Enroll</button>
         </div>
@@ -327,19 +337,19 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">×</button>
-          <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
+          <h4><span class="glyphicon glyphicon-lock"></span> Join Us!</h4>
         </div>
         <div class="modal-body">
           <form role="form">
             <div class="form-group">
-              <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per person</label>
-              <input type="number" class="form-control" id="psw" placeholder="How many?">
+              <label for="psw"><span class="glyphicon glyphicon-user"></span> Your Name</label>
+              <input type="number" class="form-control" id="psw" placeholder="full name">
             </div>
             <div class="form-group">
-              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Email</label>
               <input type="text" class="form-control" id="usrname" placeholder="Enter email">
             </div>
-              <button type="submit" class="btn btn-block">Pay 
+              <button type="submit" class="btn btn-block">Send 
                 <span class="glyphicon glyphicon-ok"></span>
               </button>
           </form>
